@@ -1,16 +1,16 @@
 *{
 	margin: 0;
 	padding: 0;
-	box-sizing: content-box;
+	box-sizing: b;
 	font-family: 'Roboto', sans-serif;
 }
 
 body {
-	background-color: white;
+	background-color: burlywood;
 	display: flex;
 	flex-direction: column;
 	min-height: 100vh;
-	background-color: white;
+	
 }
 
 img {
@@ -30,6 +30,11 @@ header, main, footer {
 	width: 60px, calc(100vh - 100px), 25px;
 }
 
+.title-form{
+	font-size: 28px;
+	text-align: left;
+	margin-top: 1em;
+}
 
 main {
 	overflow-y: auto;
