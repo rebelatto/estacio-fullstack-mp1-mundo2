@@ -22,7 +22,7 @@
 		<title>Web Receitas - Faça Seu Cadastro</title>
 	</head>
 
-	<body>
+	<body  style="background-color: burlywood;">
 
 		<header>
 			<nav>
@@ -39,29 +39,45 @@
 			</nav>
 		</header>
 
-		<main>
-			<h1>Faça seu Cadastro: </h1>
-			<form class="form" style="background-color:#E45700; padding: 4rem; margin: 4rem; border-radius: 15px;">
-				<label for="nome" aria-required="true">Nome:</label>
-				<input type="text" name="nome" id="nome">
-				<label for="email">Email:</label>
-				<input type="email" name="email" id="email">
-				<label for="rua">Rua:</label>
-				<input type="text" name="rua" id="rua">
-				<label for="numero">Número:</label>
-				<input type="number" name="numero" id="numero">
-				<label for="complemento" id="complemento">Complemento:</label>
-				<input type="text" name="complemento" id="complemento">
-				<label for="bairro">Bairro:</label>
-				<input type="text" name="bairro" id="bairro">
-				<label for="cidade">Cidade:</label>
-				<input type="text" name="cidade" id="cidade">
-				<label for="estado">Estado:</label>
-				<input type="text" name="estado" id="estado">
-				<label for="cep">CEP:</label>
-				<input type="text" name="cep" id="cep">
-				<input type="submit" value="Enviar">
-			</form>
+		<main class="container-fluid">
+				<h1 class="title-form">Faça seu Cadastro: </h1>
+				<form >
+					<div>
+						<label for="nome" aria-required="true">Nome:</label>
+						<input type="text" name="nome" id="nome">
+					</div>
+					<div>
+						<label for="email">Email:</label>
+						<input type="email" name="email" id="email">
+					</div>
+					<div>					
+						<label for="rua">Rua:</label>
+						<input type="text" name="rua" id="rua">
+					</div>
+					<div>
+						<label for="numero">Número:</label>
+						<input type="number" name="numero" id="numero">
+					</div>
+					<div>
+						<label for="complemento" id="complemento">Complemento:</label>
+						<input type="text" name="complemento" id="complemento">
+					</div>
+					<div>
+						<label for="bairro">Bairro:</label>
+						<input type="text" name="bairro" id="bairro">
+					</div>
+					<div>
+						<input type="text" name="estado" id="estado">
+						<label for="cep">CEP:</label>
+					</div>
+					<div>
+						<label for="cidade">Cidade:</label>
+						<input type="text" name="cidade" id="cidade">
+						<label for="estado">Estado:</label>
+						<input type="text" name="cep" id="cep">
+						<input type="submit" value="Enviar">
+					</div>
+				</form>	
 		</main>
 
 		<footer> Missão Prática | Nível 1 | Mundo 2 - © Copyright 2023 </footer>

@@ -30,6 +30,11 @@ header, main, footer {
 	width: 60px, calc(100vh - 100px), 25px;
 }
 
+.title-form{
+	font-size: 28px;
+	text-align: left;
+	margin-top: 1em;
+}
 
 main {
 	overflow-y: auto;
