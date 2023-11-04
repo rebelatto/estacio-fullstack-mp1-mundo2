@@ -1,107 +1,122 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-	<link rel="stylesheet" type="text/css" href="formatos.css">
-	<link rel="stylesheet" type="text/css" href="receitas.css">
-	<title>Web Receitas</title>
-</head>
-<body>
-	<header>
-		<nav>
-			<a href="home.html">Home</a>
-		</nav>
-	</header>
-	<main>
-		<div class="container">
-			<div class="receitas">
-				<h1>Bolo de Cenoura</h1>
-				<figure>
-					<img src="imagens/receitas/bolo-de-cenoura.jpg" alt="Bolo de cenoura">
-				</figure>
-				<h1>Ingredientes</h1>
-				<ul>
-					<li>3 cenouras médias raladas</li>
-					<li>4 ovos</li>
-					<li>1 XC de Farinha de trigo</li>
-					<li>1 xícara (chá) de açúcar</li>
-					<li>1/2 xícara (chá) de Óleo</li>
+
+	<head>
+		<meta charset="UTF-8">
+		<!-- Responsividade -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		<!-- Favicon -->
+		<meta name="msapplication-TileColor" content="#da532c">
+		<meta name="theme-color" content="#ffffff">
+		<link rel="apple-touch-icon" sizes="180x180" href="imagens/favicon/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="imagens/favicon//favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="imagens/favicon//favicon-16x16.png">
+		<link rel="manifest" href="imagens/favicon//site.webmanifest">
+		<link rel="mask-icon" href="imagens/favicon//safari-pinned-tab.svg" color="#5bbad5">
+
+		<!-- Estilos -->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="formatos.css">
+		<link rel="stylesheet" type="text/css" href="receitas.css">
+		
+		<title>Web Receitas - Nossas Receitas</title>
+	</head>
+
+	<body>
+
+		<header>
+			<nav>
+				<ul class="nav">
+					<li class="nav-item">
+						<a class="nav-link disabled" href="home.html">Home</a>
+					<li class="nav-item">
+						<a class="nav-link  active" href="receitas.html">Receitas</a>
+					</li>
+					<li class="nav-item">
+						<a  class="nav-link disabled" href="cadastro.html">Cadastro</a>
+					</li>
 				</ul>
-				<h1>Modo de preparo</h1>
-				<p class="preparo">
-					Em um liquidificador, adiciona a cenoura, os ovos e o óleo, depois mistura.
-					Acrescente o açúcar e bata novamente por 5 minutos.
-					Em uma tigela ou na batedeira, adicione a farinha de trigo e depois misture novamente.
-					Leve para assar em forno preaquecido a 180ºC por aproximadamente 40 minutos.
-				</p>
+			</nav>
+		</header>
+
+		<main>
+			<div class="container">
+				<div class="receitas">
+					<h1 id="title">Bolo de Cenoura</h1>
+					<figure>
+						<img class="img-receitas" src="imagens/receitas/bolo-de-cenoura.jpg" alt="Bolo de cenoura">
+					</figure>
+					<h1 id="receitas-title">Ingredientes</h1>
+					<ul id="receitas-list">
+						<li>3 cenouras médias raladas</li>
+						<li>4 ovos</li>
+						<li>1 XC de Farinha de trigo</li>
+						<li>1 xícara (chá) de açúcar</li>
+						<li>1/2 xícara (chá) de Óleo</li>
+					</ul>
+					<hr/>
+					<h1 id="receitas-title">Modo de preparo</h1>
+					<p id="preparo">
+						Em um liquidificador, adiciona a cenoura, os ovos e o óleo, depois mistura.
+						Acrescente o açúcar e bata novamente por 5 minutos.
+						Em uma tigela ou na batedeira, adicione a farinha de trigo e depois misture novamente.
+						Leve para assar em forno preaquecido a 180ºC por aproximadamente 40 minutos.
+					</p>
+				</div>
+				<div class="receitas">
+					<h1 id="title">Bolo de Cenoura</h1>
+					<figure>
+						<img class="img-receitas" src="imagens/receitas/bolo-de-cenoura.jpg" alt="Bolo de cenoura">
+					</figure>
+					<h1 id="receitas-title">Ingredientes</h1>
+					<ul id="receitas-list">
+						<li>3 cenouras médias raladas</li>
+						<li>4 ovos</li>
+						<li>1 XC de Farinha de trigo</li>
+						<li>1 xícara (chá) de açúcar</li>
+						<li>1/2 xícara (chá) de Óleo</li>
+					</ul>
+					<hr/>
+					<h1 id="receitas-title">Modo de preparo</h1>
+					<p id="preparo">
+						Em um liquidificador, adiciona a cenoura, os ovos e o óleo, depois mistura.
+						Acrescente o açúcar e bata novamente por 5 minutos.
+						Em uma tigela ou na batedeira, adicione a farinha de trigo e depois misture novamente.
+						Leve para assar em forno preaquecido a 180ºC por aproximadamente 40 minutos.
+					</p>
+				</div>
+				<div class="receitas">
+					<h1 id="title">Bolo de Cenoura</h1>
+					<figure>
+						<img class="img-receitas" src="imagens/receitas/bolo-de-cenoura.jpg" alt="Bolo de cenoura">
+					</figure>
+					<h1 id="receitas-title">Ingredientes</h1>
+					<ul id="receitas-list">
+						<li>3 cenouras médias raladas</li>
+						<li>4 ovos</li>
+						<li>1 XC de Farinha de trigo</li>
+						<li>1 xícara (chá) de açúcar</li>
+						<li>1/2 xícara (chá) de Óleo</li>
+					</ul>
+					<hr/>
+					<h1 id="receitas-title">Modo de preparo</h1>
+					<p id="preparo">
+						Em um liquidificador, adiciona a cenoura, os ovos e o óleo, depois mistura.
+						Acrescente o açúcar e bata novamente por 5 minutos.
+						Em uma tigela ou na batedeira, adicione a farinha de trigo e depois misture novamente.
+						Leve para assar em forno preaquecido a 180ºC por aproximadamente 40 minutos.
+					</p>
+				</div>
 			</div>
-			<div class="receitas">
-				<h1>Bolo de Cenoura</h1>
-				<figure>
-					<img src="imagens/receitas/bolo-de-cenoura.jpg" alt="Bolo de cenoura">
-				</figure>
-				<h1>Ingredientes</h1>
-				<ul>
-					<li>3 cenouras médias raladas</li>
-					<li>4 ovos</li>
-					<li>1 XC de Farinha de trigo</li>
-					<li>1 xícara (chá) de açúcar</li>
-					<li>1/2 xícara (chá) de Óleo</li>
-				</ul>
-				<h1>Modo de preparo</h1>
-				<p  class="preparo">
-					Em um liquidificador, adiciona a cenoura, os ovos e o óleo, depois mistura.
-					Acrescente o açúcar e bata novamente por 5 minutos.
-					Em uma tigela ou na batedeira, adicione a farinha de trigo e depois misture novamente.
-					Leve para assar em forno preaquecido a 180ºC por aproximadamente 40 minutos.
-				</p>
-			</div>
-			<div class="receitas">
-				<h1>Bolo de Cenoura</h1>
-				<figure>
-					<img src="imagens/receitas/bolo-de-cenoura.jpg" alt="Bolo de cenoura">
-				</figure>
-				<h1>Ingredientes</h1>
-				<ul>
-					<li>3 cenouras médias raladas</li>
-					<li>4 ovos</li>
-					<li>1 XC de Farinha de trigo</li>
-					<li>1 xícara (chá) de açúcar</li>
-					<li>1/2 xícara (chá) de Óleo</li>
-				</ul>
-				<h1>Modo de preparo</h1>
-				<p class="preparo">
-					Em um liquidificador, adiciona a cenoura, os ovos e o óleo, depois mistura.
-					Acrescente o açúcar e bata novamente por 5 minutos.
-					Em uma tigela ou na batedeira, adicione a farinha de trigo e depois misture novamente.
-					Leve para assar em forno preaquecido a 180ºC por aproximadamente 40 minutos.
-				</p>
-			</div>
-			<div class="receitas">
-				<h1>Bolo de Cenoura</h1>
-				<figure>
-					<img src="imagens/receitas/bolo-de-cenoura.jpg" alt="Bolo de cenoura">
-				</figure>
-				<h1>Ingredientes</h1>
-				<ul>
-					<li>3 cenouras médias raladas</li>
-					<li>4 ovos</li>
-					<li>1 XC de Farinha de trigo</li>
-					<li>1 xícara (chá) de açúcar</li>
-					<li>1/2 xícara (chá) de Óleo</li>
-				</ul>
-				<h1>Modo de preparo</h1>
-				<p class="preparo">
-					Em um liquidificador, adiciona a cenoura, os ovos e o óleo, depois mistura.
-					Acrescente o açúcar e bata novamente por 5 minutos.
-					Em uma tigela ou na batedeira, adicione a farinha de trigo e depois misture novamente.
-					Leve para assar em forno preaquecido a 180ºC por aproximadamente 40 minutos.
-				</p>
-			</div>
-		</div>
-	
-	</main>
-	<footer> Missão Prática | Nível 1 | Mundo 2 - © Copyright 2023 </footer>
+		
+		</main>
+
+		<footer> Missão Prática | Nível 1 | Mundo 2 - © Copyright 2023 </footer>
+
+		<!-- Jquery, Popper, Bootstrap -->
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+	</body>
 </html>

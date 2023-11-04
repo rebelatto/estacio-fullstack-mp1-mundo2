@@ -1,43 +1,75 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">]
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-	<link rel="stylesheet" type="text/css" href="formatos.css">
-	
-	<title>Document</title>
-</head>
-<body style="background-color: white;">
-	<header>
-		<nav>
-			<a href="home.html">Home</a>
-		</nav>
-	</header>
-	<main>
-		<h1>Faça seu Cadastro: </h1>
-		<form class="form" style="background-color:#E45700; padding: 4rem; margin: 4rem;">
-			<label for="nome" aria-required="true">Nome:</label>
-			<input type="text" name="nome" id="nome">
-			<label for="email">Email:</label>
-			<input type="email" name="email" id="email">
-			<label for="rua">Rua:</label>
-			<input type="text" name="rua" id="rua">
-			<label for="numero">Número:</label>
-			<input type="number" name="numero" id="numero">
-			<label for="complemento" id="complemento">Complemento:</label>
-			<input type="text" name="complemento" id="complemento">
-			<label for="bairro">Bairro:</label>
-			<input type="text" name="bairro" id="bairro">
-			<label for="cidade">Cidade:</label>
-			<input type="text" name="cidade" id="cidade">
-			<label for="estado">Estado:</label>
-			<input type="text" name="estado" id="estado">
-			<label for="cep">CEP:</label>
-			<input type="text" name="cep" id="cep">
-			<input type="submit" value="Enviar">
-		</form>
-	</main>
-	<footer> Missão Prática | Nível 1 | Mundo 2 - © Copyright 2023 </footer>
-</body>
+	<head>
+		<meta charset="UTF-8">
+		<!-- Responsividade -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		<!-- Favicon -->
+		<meta name="msapplication-TileColor" content="#da532c">
+		<meta name="theme-color" content="#ffffff">
+		<link rel="apple-touch-icon" sizes="180x180" href="imagens/favicon/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="imagens/favicon//favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="imagens/favicon//favicon-16x16.png">
+		<link rel="manifest" href="imagens/favicon//site.webmanifest">
+		<link rel="mask-icon" href="imagens/favicon//safari-pinned-tab.svg" color="#5bbad5">
+
+		<!-- Estilos -->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="formatos.css">
+		<link rel="stylesheet" type="text/css" href="receitas.css">
+
+		<title>Web Receitas - Faça Seu Cadastro</title>
+	</head>
+
+	<body>
+
+		<header>
+			<nav>
+				<ul class="nav">
+					<li class="nav-item">
+						<a class="nav-link disabled" href="home.html">Home</a>
+					<li class="nav-item">
+						<a class="nav-link disabled" href="receitas.html">Receitas</a>
+					</li>
+					<li class="nav-item active">
+						<a  class="nav-link" href="cadastro.html">Cadastro</a>
+					</li>
+				</ul>
+			</nav>
+		</header>
+
+		<main>
+			<h1>Faça seu Cadastro: </h1>
+			<form class="form" style="background-color:#E45700; padding: 4rem; margin: 4rem; border-radius: 15px;">
+				<label for="nome" aria-required="true">Nome:</label>
+				<input type="text" name="nome" id="nome">
+				<label for="email">Email:</label>
+				<input type="email" name="email" id="email">
+				<label for="rua">Rua:</label>
+				<input type="text" name="rua" id="rua">
+				<label for="numero">Número:</label>
+				<input type="number" name="numero" id="numero">
+				<label for="complemento" id="complemento">Complemento:</label>
+				<input type="text" name="complemento" id="complemento">
+				<label for="bairro">Bairro:</label>
+				<input type="text" name="bairro" id="bairro">
+				<label for="cidade">Cidade:</label>
+				<input type="text" name="cidade" id="cidade">
+				<label for="estado">Estado:</label>
+				<input type="text" name="estado" id="estado">
+				<label for="cep">CEP:</label>
+				<input type="text" name="cep" id="cep">
+				<input type="submit" value="Enviar">
+			</form>
+		</main>
+
+		<footer> Missão Prática | Nível 1 | Mundo 2 - © Copyright 2023 </footer>
+
+		<!-- Jquery, Popper, Bootstrap -->
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+	</body>
+
 </html>
