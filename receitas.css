@@ -1,21 +1,22 @@
-#title{
-	font-size: 28px;
+/* #title{
+	font-size: 25px;
 	text-align: center;
 	margin-top: 1em;
-}
+} */
 
-#receitas-title{
+/* #receitas-title{
 	font-size: 20px;
 	text-align: center;
 	margin-top: 1rem;
 
-}
+} */
+/* 
 #preparo{
 	margin-top: 1em;
 	margin-right: 1em;
 	margin-left: 1em;
 	text-align: justify;
-}
+} */
 
 .container{
 	display: flex;
@@ -27,13 +28,10 @@
 }
 
 .receitas{
-	display: inline-flex;
-	flex-direction: column;
+	
 	justify-content: space-between;
-	align-items: center;
 	width: 25%;
 	margin: 1em;
-	padding: 1em;
 	background-color: white;
 	border: 1px solid #d6d4d4;
 	border-radius: 10px;
@@ -41,7 +39,6 @@
 }
 
 .img-receitas{
-	margin: 1rem 1rem;
 	max-width: 300px;
 	max-height: 220px;
 }
