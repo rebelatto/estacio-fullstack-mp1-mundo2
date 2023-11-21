@@ -10,13 +10,13 @@
 	margin-top: 1rem;
 
 } */
-/* 
-#preparo{
+
+.preparo{
 	margin-top: 1em;
 	margin-right: 1em;
 	margin-left: 1em;
 	text-align: justify;
-} */
+}
 
 .container{
 	display: flex;
